@@ -1,5 +1,5 @@
 import { createApp } from 'vue'
-import { ElButton, ElSelect, ElMessage } from 'element-plus'
+import { ElMessage } from 'element-plus'
 import App from './App.vue'
 import router from './router'
 import store from './store'
@@ -8,8 +8,7 @@ import store from './store'
 import 'element-plus/packages/theme-chalk/src/base.scss'
 
 const app = createApp(App)
-app.component(ElButton.name, ElButton)
-app.component(ElSelect.name, ElSelect)
+// app.component(ElButton.name, ElButton)
 
 app.use(ElMessage)
 
