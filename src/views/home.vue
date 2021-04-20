@@ -1,6 +1,7 @@
 <template>
   <div>home</div>
   <p>change home page</p>
+  <p>test deploy.yml</p>
   <test />
 </template>
 <script lang="ts">
