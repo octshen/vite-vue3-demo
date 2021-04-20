@@ -2,6 +2,7 @@
   <div>home</div>
   <p>change home page</p>
   <p>test deploy.yml</p>
+  <p>test deploy.yml again</p>
   <test />
 </template>
 <script lang="ts">
