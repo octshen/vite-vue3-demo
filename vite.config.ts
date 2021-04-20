@@ -18,14 +18,15 @@ export default defineConfig({
           },
           resolveComponent: (name) => {
             return `element-plus/lib/${name}`
-          }
-        }
-      ]
-    })
+          },
+        },
+      ],
+    }),
   ],
   resolve: {
     alias: {
-      '@': resolve(__dirname, 'src')
-    }
-  }
+      '@': resolve(__dirname, 'src'),
+    },
+  },
+  base: './',
 })
